@@ -1,0 +1,50 @@
+body {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  background-color:#69747c;
+  color: white;
+}
+
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 3.5rem;
+}
+h1,
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+.navbar-inverse {
+  background-color: #1c0f13;
+}
+
+.jumbotron {
+  background-color: #a0c1d1;
+  color: white;
+  background-image: url("./../images/hero-background-image.jpg");
+  height: 60rem;
+  background-position: 70% 30%;
+}
+
+.hero {
+  padding-top: 5rem;
+}
+
+body .info {
+  background-image: url("./../images/arrows.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0% 90%;
+
+}
+.info {
+  text-shadow: 3px 4px #1c0f13;
+}
+.info h2 {
+  color: #a0c1d1;
+}
+.info p{
+  font-size: 2rem;
+}
