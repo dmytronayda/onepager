@@ -12,10 +12,16 @@ h2 {
   font-size: 3.5rem;
 }
 h1,
-h2 {
+h2,
+h4 {
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
 }
+h4 {
+  font-size: 2rem;
+  font-weight:normal;
+}
+
 .navbar-inverse {
   background-color: #1c0f13;
 }
@@ -23,13 +29,18 @@ h2 {
 .jumbotron {
   background-color: #a0c1d1;
   color: white;
+  background-repeat: no-repeat;
   background-image: url("./../images/hero-background-image.jpg");
-  height: 60rem;
-  background-position: 70% 30%;
+  height: 55rem;
+  background-position: 5% 15%;
+  background-size: cover;
+}
+.mobile {
+  display: none;
 }
 
 .hero {
-  padding-top: 5rem;
+  padding: 5rem;
 }
 
 body .info {
@@ -37,14 +48,77 @@ body .info {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 0% 90%;
-
 }
 .info {
   text-shadow: 3px 4px #1c0f13;
+  padding-bottom: 4rem;
 }
 .info h2 {
   color: #a0c1d1;
 }
 .info p{
   font-size: 2rem;
+}
+
+.white {
+  background-color: #fdfdff;
+  color: #a0c1d1;
+  text-shadow: 0 0.3px #69747c;
+}
+
+.text {
+  padding: 4rem 0;
+}
+
+.text p {
+  font-size: 2rem;
+}
+.info .bottom {
+  padding-bottom: 4rem;
+}
+
+.video {
+  padding: 3rem 2rem;
+}
+
+.light-blue {
+  background-color: #a0c1d1;
+}
+
+footer {
+  height: 15rem;
+}
+
+footer .row {
+  padding-top: 2rem;
+}
+
+footer li {
+  padding: .5rem 0;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: #a0c1d1;
+  text-decoration: none;
+  transition: all .1s ease-out .1s;
+}
+
+@media only screen and (max-width:480px) {
+  .mobile {
+    display: grid;
+  }
+  .jumbotron .mobile{
+    background-image: url("./../images/hero-background-image-mobile.jpg");
+  }
+  .desktop {
+    display: none;
+  }
+  .jumbotron{
+    margin: 2rem 0;
+    height: 45rem;
+  }
 }
