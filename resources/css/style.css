@@ -13,12 +13,18 @@ h2 {
 }
 h1,
 h2,
-h4 {
+h4,
+h3 {
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
 }
 h4 {
   font-size: 2rem;
+  font-weight:normal;
+}
+
+h3 {
+  font-size: 2.25rem;
   font-weight:normal;
 }
 
@@ -35,6 +41,7 @@ h4 {
   background-position: 5% 15%;
   background-size: cover;
 }
+
 .mobile {
   display: none;
 }
@@ -50,7 +57,7 @@ body .info {
   background-position: 0% 90%;
 }
 .info {
-  text-shadow: 3px 4px #1c0f13;
+  /* text-shadow: 3px 4px #1c0f13; */
   padding-bottom: 4rem;
 }
 .info h2 {
@@ -60,10 +67,17 @@ body .info {
   font-size: 2rem;
 }
 
+.list-group-item {
+  color: #69747c;
+}
 .white {
   background-color: #fdfdff;
   color: #a0c1d1;
   text-shadow: 0 0.3px #69747c;
+}
+
+#audience {
+  color: #69747c;
 }
 
 .text {
@@ -84,6 +98,33 @@ body .info {
 .light-blue {
   background-color: #a0c1d1;
 }
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem; 
+}
+.outter-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 9rem;
+  border: 1.5px solid #fdfdff;
+  text-align: center;
+}
+
+.bottom-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 3rem;
+  border: 1px solid #fdfdff;
+  text-align: center;
+}
+
 
 footer {
   height: 15rem;
