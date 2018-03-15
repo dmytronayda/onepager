@@ -41,7 +41,9 @@ h3 {
   background-position: 5% 15%;
   background-size: cover;
 }
-
+.padding-up-and-down {
+  padding: 3rem 0;
+}
 .mobile {
   display: none;
 }
@@ -50,8 +52,8 @@ h3 {
   padding: 5rem;
 }
 
-body .info {
-  background-image: url("./../images/arrows.png");
+.info {
+
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 0% 90%;
@@ -140,7 +142,7 @@ body .info {
 }
 
 .panel {
-  color: #69747c; 
+  color: #69747c;
 }
 
 
