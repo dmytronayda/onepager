@@ -98,12 +98,26 @@ body .info {
 .light-blue {
   background-color: #a0c1d1;
 }
+.flow {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.flow img{
+  padding: 15% 0;
+  width: 90%;
+}
+
+.mobile .flow img{
+  padding: 5% 0;
+  width: 60%;
+}
 .box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 1rem; 
+  margin: 1rem;
 }
 .outter-box {
   display: flex;
@@ -123,6 +137,10 @@ body .info {
   height: 3rem;
   border: 1px solid #fdfdff;
   text-align: center;
+}
+
+.panel {
+  color: #69747c; 
 }
 
 
